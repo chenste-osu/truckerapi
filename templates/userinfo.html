@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <title>trucker-api</title>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Trucker-API</h1>
+<h2>User Info</h2>
+<table>
+  <tr>
+    <td>User ID:</td>
+      {% if user_id %}
+        <td>{{user_id}}</td>
+      {% else %}
+        <td>User ID Unavailable</td>
+      {% endif %}
+  </tr>
+  <tr>
+    <td>JWT Value:</td>
+      {% if jwt %}
+        <td>{{jwt}}</td>
+      {% else %}
+        <td>JWT Unavailable</td>
+      {% endif %}
+  </tr>
+</table>
+</body>
+</html>
