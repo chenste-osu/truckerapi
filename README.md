@@ -1,5 +1,5 @@
 # Trucker API
-## A simple server developed on Google App Engine that supports CRUD functionality to create and assign loads and trucks. 
+## A simple server developed on Google App Engine that supports CRUD functionality to create and assign trucks and loads. 
 
 Link to server: 
 https://chenste-project.uk.r.appspot.com/
